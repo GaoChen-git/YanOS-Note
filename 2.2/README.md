@@ -9,7 +9,7 @@
     否则可以进入包厢  
     出包厢后，放下自己的旗子  
 - 证明Peterson正确性:  
-    画出状态机，我们(在完全不理解算法的前提下)证明了Sequential(顺序)内存  
+    画出状态机，我们(在完全不理解算法的前提下)证明了Sequential(顺序)内存
     模型下 Peterson's Protocol 的 Safety。它能够实现互斥。  
 - memory ordering->内存排序  
 
