@@ -9,10 +9,10 @@
 2. 汇编程序是一个寄存器和内存的状态机
 - 状态 = 内存  + 寄存器 
 - 初始状态:
-    `ld-linux-x86-64.so`加载了 libc
-    之后 libc 完成了自己的初始化
-    RTFM: libc startup on Hurd
-    `main()` 的开始/结束并不是整个程序的开始/结束
+    `ld-linux-x86-64.so`加载了 libc  
+    之后 libc 完成了自己的初始化  
+    RTFM: libc startup on Hurd  
+    `main()` 的开始/结束并不是整个程序的开始/结束  
 - 迁移 = 执行一条指令
 - C=compile(S)
 
